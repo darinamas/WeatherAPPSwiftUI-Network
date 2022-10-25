@@ -26,7 +26,7 @@ struct WeatherModel: Identifiable, Codable {
     let wind: Wind?
     let rain: Rain?
     let clouds: Clouds?
-    let dt: Int?
+    let dt: Int
     let sys: Sys
     let timezone, id: Int?
     let name: String?
@@ -106,7 +106,7 @@ class DeveloperPreview {
         weather: [Weather(id: 500, main: "Clear", weatherDescription: "light rain", icon: "10d")],
         base: "stations",
         main: Main(
-            temp: 16.92,
+            temp: -16.92,
             feelsLike: 16.94,
             tempMin: 15.71,
             tempMax: 18.82,
@@ -179,7 +179,7 @@ class Network: ObservableObject {
                       do {
                           let decodedWeather = try JSONDecoder().decode(WeatherModel.self, from: data)
                           self.allWeather = decodedWeather
-                          print("🦊: \(self.allWeather?.name)")
+                          print("🦊: \(self.allWeather?.name) \(self.allWeather?.weather[0].main)")
                       } catch let error {
                           print("Error decoding: ", error)
                       }
@@ -190,3 +190,4 @@ class Network: ObservableObject {
           dataTask.resume()
     }
 }
+

@@ -25,27 +25,36 @@ struct WeatherView: View {
                 ifWeatherImage()
                 Text(weather.name ?? "Undefined")
                     .font(.title2)
-                Text("\(weather.main.temp)" )
-                    .font(.title2)
+                
+                    Text(showTemp(temp: weather.main.temp))
+                        .font(.title2)
+                    Text(weather.weather[0].weatherDescription ?? "?")
+                    .font(.subheadline)
+                  
+                
                 ZStack {
                     RoundedRectangle(cornerRadius: 25)
                         .fill(AngularGradient(gradient: fourColorsGradient, center: .topLeading))
-                        .frame(width: 300, height: 100)
+                        .frame(width: 350, height: 100)
                         .opacity(0.9)
-                        
-
                     HStack {
+                        VStack {
+                            Text("Date")
+                                .font(.headline)
+                            Text("\(showDate(timestamp: weather.dt))")
+                                .font(.headline)
+                        }.padding()
                         VStack {
                             Text("Sunrise")
                                 .font(.headline)
-                            Text("\(weather.sys.sunrise)" )
+                            Text("\(showTime(timestamp: weather.sys.sunrise))")
                                 .font(.headline)
                         }.padding()
                         
                         VStack {
                             Text("Sunset")
                                 .font(.headline)
-                            Text("\(weather.sys.sunset)")
+                            Text("\(showTime(timestamp: weather.sys.sunset))")
                                 .font(.headline)
                         }.padding()
                     }
@@ -68,6 +77,26 @@ struct WeatherView: View {
         else {
             return AnyView(ImageWeatherView(imageName: "NightMoon"))
         }
+    }
+    
+    func showTime(timestamp: Int) -> String {
+        let dateU = Date(timeIntervalSince1970: Double(timestamp))
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH:mm"
+        let strDate = dateFormatter.string(from: dateU)
+        return strDate
+    }
+    func showDate(timestamp: Int) -> String {
+        let dateU = Date(timeIntervalSince1970: Double(timestamp))
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd.mm.yyyy"//"MMM d, yyyy"
+        let strDate = dateFormatter.string(from: dateU)
+        return strDate
+    }
+    
+    func showTemp(temp: Double) -> String {
+        let tempResults = String(Int(round((temp + 1)))) + " " + " °" + "C"
+        return tempResults
     }
 }
 

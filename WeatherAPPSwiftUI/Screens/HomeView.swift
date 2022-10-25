@@ -44,6 +44,7 @@ struct HomeView: View {
                             
                             
                         }.padding()
+
                         WeatherView(weather: network.allWeather ?? network.weatherMock)
                        // Spacer()
                     }
