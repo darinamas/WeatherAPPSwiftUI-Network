@@ -89,7 +89,7 @@ struct WeatherView: View {
     func showDate(timestamp: Int) -> String {
         let dateU = Date(timeIntervalSince1970: Double(timestamp))
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "dd.mm.yyyy"//"MMM d, yyyy"
+        dateFormatter.dateFormat = "MMM d, yyyy"
         let strDate = dateFormatter.string(from: dateU)
         return strDate
     }
