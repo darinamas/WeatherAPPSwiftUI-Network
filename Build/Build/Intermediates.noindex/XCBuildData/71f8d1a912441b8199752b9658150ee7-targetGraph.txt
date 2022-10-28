@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+WeatherAPPSwiftUI in WeatherAPPSwiftUI, no dependencies
+WeatherAPPSwiftUIUITests in WeatherAPPSwiftUI, depends on:
+WeatherAPPSwiftUI in WeatherAPPSwiftUI (explicit)
+WeatherAPPSwiftUITests in WeatherAPPSwiftUI, depends on:
+WeatherAPPSwiftUI in WeatherAPPSwiftUI (explicit)

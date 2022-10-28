@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>WeatherAPPSwiftUITests</key>
+		<dict>
+			<key>WeatherAPPSwiftUITests</key>
+			<dict>
+				<key>testExample</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.003291010856628418</real>
+				</dict>
+				<key>testPerformanceExample</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.82106399536132812</real>
+				</dict>
+			</dict>
+		</dict>
+		<key>WeatherAPPSwiftUIUITests</key>
+		<dict>
+			<key>WeatherAPPSwiftUIUITests</key>
+			<dict>
+				<key>testExample</key>
+				<dict>
+					<key>mrnet</key>
+					<real>2.4268280267715454</real>
+				</dict>
+				<key>testLaunchPerformance</key>
+				<dict>
+					<key>mrnet</key>
+					<real>79.52669894695282</real>
+				</dict>
+			</dict>
+			<key>WeatherAPPSwiftUIUITestsLaunchTests</key>
+			<dict>
+				<key>testLaunch</key>
+				<dict>
+					<key>mrnet</key>
+					<real>6.0640040636062622</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

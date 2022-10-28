@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "ca9a0d4e8b9d198b3e6cad52b913c82576a85cfdc2fdfbd9eb261fcf7c7812fe"
+build_start_time: [1666963586, 556308031]
+build_end_time: [1666963599, 12109041]
+inputs:
+  "/Users/daryna.polevyk/Desktop/WeatherAPPSwiftUI/WeatherAPPSwiftUI/Screens/HomeView.swift": [1666693818, 808539867]
+  "/Users/daryna.polevyk/Desktop/WeatherAPPSwiftUI/WeatherAPPSwiftUI/Screens/WeatherView.swift": [1666726742, 561945676]
+  "/Users/daryna.polevyk/Desktop/WeatherAPPSwiftUI/WeatherAPPSwiftUI/Service/Network.swift": [1666699708, 529706478]
+  "/Users/daryna.polevyk/Desktop/WeatherAPPSwiftUI/WeatherAPPSwiftUI/WeatherAPPSwiftUIApp.swift": [1666627306, 425857543]

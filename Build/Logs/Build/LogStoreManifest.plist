@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0F5B1FB5-347A-4C16-A86A-FA4565482B23</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0F5B1FB5-347A-4C16-A86A-FA4565482B23.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>WeatherAPPSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>WeatherAPPSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace WeatherAPPSwiftUI with scheme WeatherAPPSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>688656357.96081603</real>
+			<key>timeStoppedRecording</key>
+			<real>688656382.70163798</real>
+			<key>title</key>
+			<string>Building workspace WeatherAPPSwiftUI with scheme WeatherAPPSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>0F5B1FB5-347A-4C16-A86A-FA4565482B23</string>
+		</dict>
+		<key>A910AD59-3E0E-48C9-9563-5D28B130F0A2</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A910AD59-3E0E-48C9-9563-5D28B130F0A2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>WeatherAPPSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>WeatherAPPSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing workspace WeatherAPPSwiftUI with scheme WeatherAPPSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>688656382.70413101</real>
+			<key>timeStoppedRecording</key>
+			<real>688656400.69474101</real>
+			<key>title</key>
+			<string>Testing workspace WeatherAPPSwiftUI with scheme WeatherAPPSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>A910AD59-3E0E-48C9-9563-5D28B130F0A2</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
