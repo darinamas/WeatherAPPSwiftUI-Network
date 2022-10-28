@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>DE9BD7FC-2EC2-42B6-984A-F0C995C746B4</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>0F5B1FB5-347A-4C16-A86A-FA4565482B23</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-WeatherAPPSwiftUI-2022.10.28_15-25-57-+0200.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>WeatherAPPSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>WeatherAPPSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run WeatherAPPSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>688656357.965886</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run WeatherAPPSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>DE9BD7FC-2EC2-42B6-984A-F0C995C746B4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

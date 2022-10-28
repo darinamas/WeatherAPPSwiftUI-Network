@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "767cfe90f49a0ccaecb1a7bd0921ef79ee3655810439f1ce003bfe92cc49ff9a"
+build_start_time: [1666963588, 665356159]
+build_end_time: [1666963600, 690411090]
+inputs:
+  "/Users/daryna.polevyk/Desktop/WeatherAPPSwiftUI/WeatherAPPSwiftUIUITests/WeatherAPPSwiftUIUITests.swift": [1666962122, 24025201]
+  "/Users/daryna.polevyk/Desktop/WeatherAPPSwiftUI/WeatherAPPSwiftUIUITests/WeatherAPPSwiftUIUITestsLaunchTests.swift": [1666962077, 616076469]

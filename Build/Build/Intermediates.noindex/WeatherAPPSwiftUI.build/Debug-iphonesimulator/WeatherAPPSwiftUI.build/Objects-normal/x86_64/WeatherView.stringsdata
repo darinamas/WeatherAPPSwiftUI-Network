@@ -1,0 +1,24 @@
+{
+  "source": "/Users/daryna.polevyk/Desktop/WeatherAPPSwiftUI/WeatherAPPSwiftUI/Screens/WeatherView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Date"
+      },
+      {
+        "comment": "",
+        "key": "%@"
+      },
+      {
+        "comment": "",
+        "key": "Sunrise"
+      },
+      {
+        "comment": "",
+        "key": "Sunset"
+      }
+    ]
+  },
+  "version": 1
+}
