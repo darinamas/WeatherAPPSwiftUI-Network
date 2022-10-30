@@ -9,19 +9,12 @@ import SwiftUI
 
 struct WeatherView: View {
     let weather: WeatherModel
-    
-    @State var city = "Prague"
-    @State var tempterure = "25 °"
-    @State var sunriseTime = "06:25"
-    @State var sunsetTime = "06:25"
-    
+        
     let fourColorsGradient = Gradient(colors: [Color.white, Color.blue, Color.green])
     
     var body: some View {
         ZStack {
-          //  GradientView()
             VStack {
-              
                 ifWeatherImage()
                 Text(weather.name ?? "Undefined")
                     .font(.title2)
@@ -73,8 +66,7 @@ struct WeatherView: View {
             return  AnyView(ImageWeatherView(imageName: "DayRain"))
         } else if (weather.weather[0].main == "Snow") {
             return  AnyView(ImageWeatherView(imageName: "DaySnow"))
-        }
-        else {
+        } else {
             return AnyView(ImageWeatherView(imageName: "NightMoon"))
         }
     }
@@ -103,15 +95,5 @@ struct WeatherView: View {
 struct WeatherView_Previews: PreviewProvider {
     static var previews: some View {
         WeatherView(weather: dev.weather)
-    }
-}
-
-struct ImageWeatherView: View {
-    var imageName = "NightMoon"
-    var body: some View {
-        Image(imageName)
-            .resizable()
-            .scaledToFit()
-            .frame(width: 100, height: 100)
     }
 }
