@@ -1,0 +1,16 @@
+{
+  "source": "/Users/daryna.polevyk/Desktop/WeatherAPPSwiftUI/WeatherAPPSwiftUI/Screens/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "City"
+      },
+      {
+        "comment": "",
+        "key": "Get Weather"
+      }
+    ]
+  },
+  "version": 1
+}

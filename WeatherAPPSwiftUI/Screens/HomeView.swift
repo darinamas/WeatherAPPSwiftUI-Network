@@ -12,9 +12,6 @@ struct HomeView: View {
     @EnvironmentObject var network: Network
     
     var body: some View {
-        
-        
-        
         NavigationView {
             ZStack {
                 GradientView()
@@ -41,20 +38,14 @@ struct HomeView: View {
                                     .background(Color.blue)
                                     .cornerRadius(30)
                             }
-                            
-                            
                         }.padding()
-
-                        WeatherView(weather: network.allWeather ?? network.weatherMock)
-                       // Spacer()
+                        
+                        WeatherView(weather: network.allWeather ?? DeveloperMock.instance.weather)
                     }
                     .padding()
                 }
-              //  Spacer()
             }
-            
         }
-
     }
 }
 
@@ -65,14 +56,3 @@ struct HomeView_Previews: PreviewProvider {
     }
 }
 
-
-struct GradientView: View {
-    let fourColorsGradient = Gradient(colors: [Color.blue, Color.pink, Color.yellow, Color.green])
-    
-    
-    var body: some View {
-        Rectangle().fill(AngularGradient(gradient: fourColorsGradient, center: .topLeading))
-            .edgesIgnoringSafeArea(.vertical)
-            .opacity(0.7)
-    }
-}
