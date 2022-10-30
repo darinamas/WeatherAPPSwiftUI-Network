@@ -40,7 +40,7 @@ struct HomeView: View {
                             }
                         }.padding()
                         
-                        WeatherView(weather: network.allWeather ?? network.weatherMock)
+                        WeatherView(weather: network.allWeather ?? DeveloperMock.instance.weather)
                     }
                     .padding()
                 }

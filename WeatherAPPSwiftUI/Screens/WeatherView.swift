@@ -3,7 +3,6 @@
 //  WeatherAPPSwiftUI
 //
 //  Created by Daryna Polevyk on 24.10.2022.
-//let temp = String(Int(round((Settings.shared.dailyWeather![0].temp?.day!)!))) + " " + " °" + "C"
 
 import SwiftUI
 
